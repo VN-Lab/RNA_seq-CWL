@@ -1,0 +1,6 @@
+threads: 8
+sra_file: 
+     class: File
+     path: /home/rvcebt/ncbi/public/sra/ERR3377479.sra
+split_files: True
+   

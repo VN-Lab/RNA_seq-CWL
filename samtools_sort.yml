@@ -1,0 +1,6 @@
+out_file: sorted.bam
+threads: 8
+input_bam:
+     class: File
+     path: /home/rvcebt/try_docker/hisat2_index.sam
+

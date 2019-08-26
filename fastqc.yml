@@ -1,0 +1,6 @@
+fastq_fwd:
+   class: File 
+   path: /home/rvcebt/try_docker/SRR9215953_1.fastq
+fastq_rev:
+   class: File
+   path: /home/rvcebt/try_docker/SRR9215953_2.fastq

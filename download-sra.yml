@@ -1,0 +1,4 @@
+# ncbi, ebi, or ddbj can be used for source repository
+#repo: ncbi
+# Run IDs, e.g. SRR1274306
+run_ids: [ERR3377479]

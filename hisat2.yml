@@ -1,0 +1,21 @@
+hisat2_idx_basedir:
+  class: Directory
+  path: /home/rvcebt/try_docker/index
+hisat2_idx_basename: hisat2_index
+threads: 4
+rg_id: sample
+rg_sm: sample
+rg_lb: sample
+rg_pl: ILLUMINA
+rg_pu: sample.1
+ref:
+  class: File
+  path: /home/rvcebt/try_docker/ref.fa
+dta: true
+fastq_fwd:
+  class: File
+  path: /home/rvcebt/try_docker/fwd.fastq
+fastq_rev:
+  class: File
+  path: /home/rvcebt/try_docker/rev.fastq
+out_sam_name: hisat2_index.sam
