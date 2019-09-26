@@ -1,0 +1,21 @@
+sraFiles: 
+   class: File
+   path: /media/rvcebt/Data/rnaseq/ERR3377479.sra
+split: true
+reference_file:
+  class: File
+  path:  /media/rvcebt/Data/rnaseq/ref.fa
+index: hg38
+basename: hisat2_index
+threads: 4
+dt: true
+output: hisat2_index.sam
+bamfile: sorted.bam
+file: assembled_output.gtf
+gt: 
+  class: File
+  path: /media/rvcebt/Data/rnaseq/Homo_sapiens.GRCh38.97.gff3
+indx:
+  class: Directory
+  path: /media/rvcebt/Data/rnaseq/index
+
